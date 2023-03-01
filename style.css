@@ -1,0 +1,17 @@
+body{background-color: mediumspringgreen;}
+h1{
+    background-color:burlywood ;
+color: blue;}
+#showsketch{float:right;}
+canvas{
+    border: 5px solid rebeccapurple;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name:skecthth;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes skecthth{
+    from{box-shadow: 5px 5px 40px thistle;}
+    to{box-shadow: 10px 10px 40px blueviolet;}
+}
